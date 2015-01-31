@@ -1,15 +1,21 @@
+// ----------------------------------------------------------------------------
 //
 //  ___FILENAME___
-//  ___PROJECTNAME___
 //
-//  Created by ___FULLUSERNAME___ on ___DATE___.
-//___COPYRIGHT___
+//  @author     ___FULLUSERNAME___ <___EMAIL___>
+//  @copyright  Copyright (c) ___YEAR___, ___COMPANY___. All rights reserved.
+//  @link       ___WEBSITE___
 //
+// ----------------------------------------------------------------------------
 
 import UIKit
 import XCTest
 
-class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_testSubclass___ {
+// ----------------------------------------------------------------------------
+
+class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_testSubclass___
+{
+// MARK: - @functions
 
     override func setUp() {
         super.setUp()
@@ -34,3 +40,5 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_testSubclass___ {
     }
 
 }
+
+// ----------------------------------------------------------------------------

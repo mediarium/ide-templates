@@ -1,15 +1,29 @@
+// ----------------------------------------------------------------------------
 //
 //  ___FILENAME___
-//  ___PROJECTNAME___
 //
-//  Created by ___FULLUSERNAME___ on ___DATE___.
-//___COPYRIGHT___
+//  @author     ___FULLUSERNAME___ <___EMAIL___>
+//  @copyright  Copyright (c) ___YEAR___, ___COMPANY___. All rights reserved.
+//  @link       ___WEBSITE___
 //
+// ----------------------------------------------------------------------------
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
-        
+// ----------------------------------------------------------------------------
+
+class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
+{
+// MARK: - @construction
+
+    // ...
+
+// MARK: - @properties
+
+    // ...
+
+// MARK: - @functions
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,73 +39,122 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
         // Dispose of any resources that can be recreated.
     }
 
-    // MARK: - Table view data source
+//    // In a storyboard-based application, you will often want to do a little preparation before navigation
+//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
+//    {
+//        // Get the new view controller using [segue destinationViewController].
+//        // Pass the selected object to the new view controller.
+//    }
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+// MARK: - @actions
+
+    // ...
+
+// MARK: - @private functions
+
+    // ...
+
+// MARK: - @inner types
+
+    // ...
+
+// MARK: - @constants
+
+    // ...
+
+// MARK: - @variables
+
+    // ...
+
+}
+
+// ----------------------------------------------------------------------------
+// MARK: - @protocol UITableViewDataSource
+// ----------------------------------------------------------------------------
+
+extension ___FILEBASENAMEASIDENTIFIER___: UITableViewDataSource
+{
+// MARK: - @functions
+
+    override func numberOfSectionsInTableView(tableView: UITableView) -> Int
+    {
         // #warning Potentially incomplete method implementation.
         // Return the number of sections.
         return 0
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
         return 0
     }
 
-    /*
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as UITableViewCell
+//    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+//    {
+//        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as UITableViewCell
+//
+//        // Configure the cell.
+//
+//        return cell
+//    }
 
-        // Configure the cell...
+//    // Override to support conditional editing of the table view.
+//    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool
+//    {
+//        // Return NO if you do not want the specified item to be editable.
+//        return true
+//    }
 
-        return cell
-    }
-    */
+//    // Override to support editing the table view.
+//    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath)
+//    {
+//        if editingStyle == .Delete
+//        {
+//            // Delete the row from the data source
+//            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
+//        }
+//        else
+//        if editingStyle == .Insert {
+//            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+//        }
+//    }
 
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return NO if you do not want the specified item to be editable.
-        return true
-    }
-    */
+//    // Override to support rearranging the table view.
+//    override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
+//
+//    }
 
-    /*
-    // Override to support editing the table view.
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            // Delete the row from the data source
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-        } else if editingStyle == .Insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
+//    // Override to support conditional rearranging of the table view.
+//    override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool
+//    {
+//        // Return NO if you do not want the item to be re-orderable.
+//        return true
+//    }
 
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return NO if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using [segue destinationViewController].
-        // Pass the selected object to the new view controller.
-    }
-    */
-    
 }
+
+// ----------------------------------------------------------------------------
+// MARK: - @protocol UITableViewDelegate
+// ----------------------------------------------------------------------------
+
+extension ___FILEBASENAMEASIDENTIFIER___: UITableViewDelegate
+{
+// MARK: - @functions
+
+//    // In a xib-based application, navigation from a table can be handled in tableView(_:didSelectRowAtIndexPath:)
+//    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
+//    {
+//        // Navigation logic may go here, for example:
+//        // Create the next view controller.
+//        let detailViewController = <#DetailViewController#>(<#@"Nib name"#>, bundle: nil)
+//
+//        // Pass the selected object to the new view controller.
+//
+//        // Push the view controller.
+//        self.navigationController?.pushViewController(detailViewController, animated: true)
+//    }
+
+}
+
+// ----------------------------------------------------------------------------
