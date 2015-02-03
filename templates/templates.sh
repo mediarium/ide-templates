@@ -27,7 +27,6 @@ module Templates
     def initialize(title, pattern)
       @title = title
       @pattern = pattern
-      @value = nil
     end
   end
 
@@ -110,7 +109,7 @@ begin parser.parse! ARGV
 rescue OptionParser::InvalidOption => e
   puts e.to_s.capitalize
   puts parser
-  exit(1)
+  exit(2)
 end
 
 if options[:install]
@@ -119,6 +118,7 @@ elsif options[:remove]
   Templates.remove_files
 else
   puts parser.help
+  exit(1)
 end
 
 # ----------------------------------------------------------------------------
