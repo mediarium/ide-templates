@@ -8,14 +8,14 @@
 //
 // ----------------------------------------------------------------------------
 
-import UIKit
+import Foundation
 import XCTest
 
 // ----------------------------------------------------------------------------
 
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_testSubclass___
 {
-// MARK: - @functions
+// MARK: - Functions
 
     override func setUp() {
         super.setUp()

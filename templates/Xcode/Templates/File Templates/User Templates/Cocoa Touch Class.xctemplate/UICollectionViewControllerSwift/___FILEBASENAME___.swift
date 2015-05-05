@@ -14,15 +14,15 @@ import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
 {
-// MARK: - @construction
+// MARK: - Construction
 
     // ...
 
-// MARK: - @properties
+// MARK: - Properties
 
     // ...
 
-// MARK: - @functions
+// MARK: - Functions
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,25 +48,25 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
 //        // Pass the selected object to the new view controller.
 //    }
 
-// MARK: - @actions
+// MARK: - Actions
 
     // ...
 
-// MARK: - @private functions
+// MARK: - Private Functions
 
     // ...
 
-// MARK: - @inner types
+// MARK: - Inner Types
 
     // ...
 
-// MARK: - @constants
+// MARK: - Constants
 
     private struct Inner {
         static let ReuseIdentifier = "Cell"
     }
 
-// MARK: - @variables
+// MARK: - Variables
 
     // ...
 
@@ -78,7 +78,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
 
 extension ___FILEBASENAMEASIDENTIFIER___: UICollectionViewDataSource
 {
-// MARK: - @functions
+// MARK: - Functions
 
     override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int
     {
@@ -109,7 +109,7 @@ extension ___FILEBASENAMEASIDENTIFIER___: UICollectionViewDataSource
 
 extension ___FILEBASENAMEASIDENTIFIER___: UICollectionViewDelegate
 {
-// MARK: - @functions
+// MARK: - Functions
 
 //    // Uncomment this method to specify if the specified item should be highlighted during tracking
 //    override func collectionView(collectionView: UICollectionView, shouldHighlightItemAtIndexPath indexPath: NSIndexPath) -> Bool {

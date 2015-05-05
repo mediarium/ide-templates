@@ -14,15 +14,15 @@ import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
 {
-// MARK: - @construction
+// MARK: - Construction
 
     // ...
 
-// MARK: - @properties
+// MARK: - Properties
 
     // ...
 
-// MARK: - @functions
+// MARK: - Functions
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,23 +46,23 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
 //        // Pass the selected object to the new view controller.
 //    }
 
-// MARK: - @actions
+// MARK: - Actions
 
     // ...
 
-// MARK: - @private functions
+// MARK: - Private Functions
 
     // ...
 
-// MARK: - @inner types
+// MARK: - Inner Types
 
     // ...
 
-// MARK: - @constants
+// MARK: - Constants
 
     // ...
 
-// MARK: - @variables
+// MARK: - Variables
 
     // ...
 
@@ -74,7 +74,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
 
 extension ___FILEBASENAMEASIDENTIFIER___: UITableViewDataSource
 {
-// MARK: - @functions
+// MARK: - Functions
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int
     {
@@ -140,7 +140,7 @@ extension ___FILEBASENAMEASIDENTIFIER___: UITableViewDataSource
 
 extension ___FILEBASENAMEASIDENTIFIER___: UITableViewDelegate
 {
-// MARK: - @functions
+// MARK: - Functions
 
 //    // In a xib-based application, navigation from a table can be handled in tableView(_:didSelectRowAtIndexPath:)
 //    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)

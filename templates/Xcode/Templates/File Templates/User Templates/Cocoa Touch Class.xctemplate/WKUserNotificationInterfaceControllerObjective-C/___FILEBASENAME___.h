@@ -8,47 +8,23 @@
 //
 // ----------------------------------------------------------------------------
 
-import UIKit
+#import <WatchKit/WatchKit.h>
+#import <Foundation/Foundation.h>
 
 // ----------------------------------------------------------------------------
 
-class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
-{
-// MARK: - Construction
+@interface ___FILEBASENAME___ : WKUserNotificationInterfaceController
 
-    // ...
+// -- properties
 
-// MARK: - Properties
+// ...
 
-    // ...
+// -- functions
 
-// MARK: - Functions
+// ...
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
+// --
 
-// MARK: - Actions
-
-    // ...
-
-// MARK: - Private Functions
-
-    // ...
-
-// MARK: - Inner Types
-
-    // ...
-
-// MARK: - Constants
-
-    // ...
-
-// MARK: - Variables
-
-    // ...
-
-}
+@end
 
 // ----------------------------------------------------------------------------

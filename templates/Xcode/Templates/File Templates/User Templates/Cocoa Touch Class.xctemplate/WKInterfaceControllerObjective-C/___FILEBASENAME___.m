@@ -12,7 +12,25 @@
 
 // ----------------------------------------------------------------------------
 
-@implementation ___FILEBASENAMEASIDENTIFIER___
+@interface ___FILEBASENAME___ ()
+
+// -- properties
+
+// ...
+
+// -- actions
+
+// ...
+
+// --
+
+@end
+
+// ----------------------------------------------------------------------------
+#pragma mark -
+// ----------------------------------------------------------------------------
+
+@implementation ___FILEBASENAME___
 
 // ----------------------------------------------------------------------------
 #pragma mark - Properties
@@ -39,11 +57,29 @@
 // ...
 
 // ----------------------------------------------------------------------------
-#pragma mark - @interface NSObject
+#pragma mark - @interface WKInterfaceController
 // ----------------------------------------------------------------------------
 
-- (void)awakeFromNib {
-    // Initialization code
+- (void)awakeWithContext:(id)context {
+    [super awakeWithContext:context];
+
+    // Configure interface objects here.
+}
+
+// ----------------------------------------------------------------------------
+
+- (void)willActivate {
+    [super willActivate];
+
+    // This method is called when watch view controller is about to be visible to user.
+}
+
+// ----------------------------------------------------------------------------
+
+- (void)didDeactivate {
+    [super didDeactivate];
+
+    // This method is called when watch view controller is no longer visible.
 }
 
 // ----------------------------------------------------------------------------

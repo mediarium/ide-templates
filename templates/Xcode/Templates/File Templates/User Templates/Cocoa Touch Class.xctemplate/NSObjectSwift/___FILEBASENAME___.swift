@@ -8,41 +8,41 @@
 //
 // ----------------------------------------------------------------------------
 
-import UIKit
+import Foundation
 
 // ----------------------------------------------------------------------------
 
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
 {
-// MARK: - @construction
+// MARK: - Construction
 
     // ...
 
-// MARK: - @properties
+// MARK: - Properties
 
     // ...
 
-// MARK: - @functions
+// MARK: - Functions
 
     // ...
 
-// MARK: - @actions
+// MARK: - Actions
 
     // ...
 
-// MARK: - @private functions
+// MARK: - Private Functions
 
     // ...
 
-// MARK: - @inner types
+// MARK: - Inner Types
 
     // ...
 
-// MARK: - @constants
+// MARK: - Constants
 
     // ...
 
-// MARK: - @variables
+// MARK: - Variables
 
     // ...
 

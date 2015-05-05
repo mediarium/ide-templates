@@ -51,6 +51,10 @@
 				<string>TableViewController</string>
 				<key>UIViewController</key>
 				<string>ViewController</string>
+				<key>WKInterfaceController</key>
+				<string>InterfaceController</string>
+				<key>WKUserNotificationInterfaceController</key>
+				<string>NotificationController</string>
 			</dict>
 			<key>Type</key>
 			<string>class</string>
@@ -64,6 +68,8 @@
 				<string>UICollectionViewController</string>
 				<string>UICollectionViewCell</string>
 				<string>UICollectionReusableView</string>
+				<string>WKInterfaceController</string>
+				<string>WKUserNotificationInterfaceController</string>
 			</array>
 		</dict>
 		<dict>
