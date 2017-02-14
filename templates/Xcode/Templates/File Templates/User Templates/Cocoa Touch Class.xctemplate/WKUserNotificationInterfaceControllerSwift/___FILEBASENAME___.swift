@@ -22,7 +22,7 @@ class ___FILEBASENAME___: WKUserNotificationInterfaceController
 
     // ...
 
-// MARK: - Functions
+// MARK: - Methods
 
     override init()
     {

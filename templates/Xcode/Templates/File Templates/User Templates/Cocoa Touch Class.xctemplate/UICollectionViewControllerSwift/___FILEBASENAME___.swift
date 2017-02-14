@@ -22,7 +22,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
 
     // ...
 
-// MARK: - Functions
+// MARK: - Methods
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -78,7 +78,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
 
 extension ___FILEBASENAMEASIDENTIFIER___: UICollectionViewDataSource
 {
-// MARK: - Functions
+// MARK: - Methods
 
     override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int
     {
@@ -109,7 +109,7 @@ extension ___FILEBASENAMEASIDENTIFIER___: UICollectionViewDataSource
 
 extension ___FILEBASENAMEASIDENTIFIER___: UICollectionViewDelegate
 {
-// MARK: - Functions
+// MARK: - Methods
 
 //    // Uncomment this method to specify if the specified item should be highlighted during tracking
 //    override func collectionView(collectionView: UICollectionView, shouldHighlightItemAtIndexPath indexPath: NSIndexPath) -> Bool {

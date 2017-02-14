@@ -22,7 +22,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
 
     // ...
 
-// MARK: - Functions
+// MARK: - Methods
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -74,7 +74,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
 
 extension ___FILEBASENAMEASIDENTIFIER___: UITableViewDataSource
 {
-// MARK: - Functions
+// MARK: - Methods
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int
     {
@@ -140,7 +140,7 @@ extension ___FILEBASENAMEASIDENTIFIER___: UITableViewDataSource
 
 extension ___FILEBASENAMEASIDENTIFIER___: UITableViewDelegate
 {
-// MARK: - Functions
+// MARK: - Methods
 
 //    // In a xib-based application, navigation from a table can be handled in tableView(_:didSelectRowAtIndexPath:)
 //    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)

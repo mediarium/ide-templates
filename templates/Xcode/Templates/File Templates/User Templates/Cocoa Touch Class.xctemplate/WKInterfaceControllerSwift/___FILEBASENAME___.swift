@@ -22,7 +22,7 @@ class ___FILEBASENAME___: WKInterfaceController
 
     // ...
 
-// MARK: - Functions
+// MARK: - Methods
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)

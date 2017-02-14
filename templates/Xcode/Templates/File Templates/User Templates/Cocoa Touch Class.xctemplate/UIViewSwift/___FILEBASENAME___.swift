@@ -22,7 +22,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
 
     // ...
 
-// MARK: - Functions
+// MARK: - Methods
 
 //    // Only override drawRect: if you perform custom drawing.
 //    // An empty implementation adversely affects performance during animation.
