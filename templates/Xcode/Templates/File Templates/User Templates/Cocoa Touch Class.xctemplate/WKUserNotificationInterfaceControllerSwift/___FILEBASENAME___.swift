@@ -74,7 +74,7 @@ class ___FILEBASENAME___: WKUserNotificationInterfaceController
 
     // ...
 
-// MARK: - Private Functions
+// MARK: - Private Methods
 
     // ...
 

@@ -46,7 +46,7 @@ class ___FILEBASENAME___: WKInterfaceController
 
     // ...
 
-// MARK: - Private Functions
+// MARK: - Private Methods
 
     // ...
 
