@@ -45,7 +45,7 @@ static NSString * const kReuseIdentifier = @"Cell";
 // ...
 
 // ----------------------------------------------------------------------------
-#pragma mark - Protected Functions
+#pragma mark - Protected Methods
 // ----------------------------------------------------------------------------
 
 // ...
