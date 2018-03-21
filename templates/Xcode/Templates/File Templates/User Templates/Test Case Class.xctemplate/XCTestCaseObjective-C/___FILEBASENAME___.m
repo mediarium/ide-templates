@@ -30,7 +30,7 @@
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
 // ----------------------------------------------------------------------------
-#pragma mark - Functions
+#pragma mark - Methods
 // ----------------------------------------------------------------------------
 
 - (void)setUp {

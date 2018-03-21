@@ -15,7 +15,7 @@ import XCTest
 
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_testSubclass___
 {
-// MARK: - Functions
+// MARK: - Methods
 
     override func setUp() {
         super.setUp()
