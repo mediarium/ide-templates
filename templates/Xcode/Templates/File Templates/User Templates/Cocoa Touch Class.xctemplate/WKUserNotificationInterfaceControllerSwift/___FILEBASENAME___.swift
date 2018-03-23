@@ -89,7 +89,6 @@ class ___FILEBASENAME___: WKUserNotificationInterfaceController
 // MARK: - Variables
 
     // ...
-
 }
 
 // ----------------------------------------------------------------------------

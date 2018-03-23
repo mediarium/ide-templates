@@ -61,7 +61,6 @@ class ___FILEBASENAME___: WKInterfaceController
 // MARK: - Variables
 
     // ...
-
 }
 
 // ----------------------------------------------------------------------------
