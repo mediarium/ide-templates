@@ -15,7 +15,7 @@ import XCTest
 
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_testSubclass___
 {
-// MARK: - Functions
+// MARK: - Tests
 
     override func setUp() {
         super.setUp()
@@ -38,7 +38,6 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_testSubclass___
             // Put the code you want to measure the time of here.
         }
     }
-
 }
 
 // ----------------------------------------------------------------------------

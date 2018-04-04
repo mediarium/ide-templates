@@ -18,7 +18,7 @@ ___IMPORTHEADER_cocoaTouchSubclass___
 
 // ...
 
-// -- functions
+// -- methods
 
 // ...
 

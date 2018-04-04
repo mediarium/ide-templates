@@ -22,7 +22,7 @@ class ___FILEBASENAME___: WKUserNotificationInterfaceController
 
     // ...
 
-// MARK: - Functions
+// MARK: - Methods
 
     override init()
     {
@@ -74,7 +74,7 @@ class ___FILEBASENAME___: WKUserNotificationInterfaceController
 
     // ...
 
-// MARK: - Private Functions
+// MARK: - Private Methods
 
     // ...
 
@@ -89,7 +89,6 @@ class ___FILEBASENAME___: WKUserNotificationInterfaceController
 // MARK: - Variables
 
     // ...
-
 }
 
 // ----------------------------------------------------------------------------

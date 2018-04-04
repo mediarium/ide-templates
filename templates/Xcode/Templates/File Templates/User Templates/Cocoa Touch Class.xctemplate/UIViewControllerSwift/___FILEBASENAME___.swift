@@ -22,7 +22,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
 
     // ...
 
-// MARK: - Functions
+// MARK: - Methods
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,7 +46,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
 
     // ...
 
-// MARK: - Private Functions
+// MARK: - Private Methods
 
     // ...
 
@@ -61,7 +61,6 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
 // MARK: - Variables
 
     // ...
-
 }
 
 // ----------------------------------------------------------------------------
